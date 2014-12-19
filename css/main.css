@@ -177,7 +177,9 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png');
 }
 
-
+p {
+  font-color: white;
+}
 
 /**********************************
 COLORS
@@ -185,19 +187,18 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background:url(../img/lakers-bg.jpg);
 }
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #4c1569;
+  border-color: #efaf2b;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #efaf2b;
 }
 
 /* logo text */
@@ -207,7 +208,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #efaf2b;
 }
 
 /* nav link */
@@ -217,8 +218,13 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
-}
+  color:#efaf2b;
+  
+  }
+/* paragraph color */
+section {
+    color: white;
+  }
 
 
 
